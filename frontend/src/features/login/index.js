@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-// import { RandomQuote } from '../../components';
+import { RandomQuote } from '../../components';
 
 const Login = () => {
     const [ minimumLength, setMinimumLength ] = useState(0);
@@ -10,7 +10,7 @@ const Login = () => {
     return (
         <div>
             <div>
-                {/* <RandomQuote minimumLength={minimumLength} /> */}
+                <RandomQuote minimumLength={minimumLength} />
             </div>
             <label>
                 Minimum quote length:
